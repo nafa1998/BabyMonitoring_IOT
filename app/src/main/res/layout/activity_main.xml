@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_home"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:paddingHorizontal="32dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginVertical="24dp"
+            android:src="@drawable/babym"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_marginVertical="24dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="BABY MONITORING\nAPPLICATION" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#FFF"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="25dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/aktifitas_bayi"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="36dp"
+            android:backgroundTint="#EF8B98"
+            android:text="Aktivitas Bayi"
+            app:cornerRadius="15dp" />
+
+        <Button
+            android:id="@+id/lihat_bayi"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="36dp"
+            android:backgroundTint="#009B4C"
+            android:text="Lihat Bayi"
+            app:cornerRadius="15dp" />
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/fcm_kode"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="tempat kode tujuan notif"
+         android:textColor="#fff"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "766393043245",
+    "firebase_url": "https://babymonitoring-ed1b7.firebaseio.com",
+    "project_id": "babymonitoring-ed1b7",
+    "storage_bucket": "babymonitoring-ed1b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766393043245:android:da5d9633f27e68c857eba4",
+        "android_client_info": {
+          "package_name": "id.alfarizi.babymonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766393043245-e794h8f6hadc0gvupstg933812gqqkg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBymsHdJhBbQU-fv1O3OZ2ULoF4aivkYrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766393043245-e794h8f6hadc0gvupstg933812gqqkg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
